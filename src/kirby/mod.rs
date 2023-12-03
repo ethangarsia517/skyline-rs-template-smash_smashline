@@ -8,8 +8,8 @@ pub fn install() {
     acmd::install(agent);
     agent.install();
 
-    smashline::clone_weapon("palutena", "explosiveflame", "kirby", "explosiveflame",true);
     smashline::clone_weapon("mario", "fireball", "kirby", "fireball",true);
+    smashline::clone_weapon("palutena", "explosiveflame", "kirby", "explosiveflame",true);
     smashline::clone_weapon("palutena", "explosiveflame_reserve", "kirby", "explosiveflame_reserve",true);
     smashline::clone_weapon("palutena", "reflectionboard", "kirby", "reflectionboard",true);
 }
