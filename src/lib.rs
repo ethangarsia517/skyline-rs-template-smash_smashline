@@ -6,10 +6,15 @@
     unused_macros
 )]
 
-mod mario;
-mod custom;
+use smashline::*;
+
+mod kirby;
+mod palutena;
+pub mod vars;
 
 #[skyline::main(name = "smashline_test")]
 pub fn main() {
-    mario::install();
+    kirby::install();
+    palutena::install();
+
 }
